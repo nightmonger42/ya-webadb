@@ -1,12 +1,13 @@
 {
-    "name": "@tango-adb/monorepo",
-    "private": true,
-    "scripts": {
-        "build": "pnpm recursive run build",
-        "test": "pnpm recursive run test",
-        "lint": "pnpm recursive run lint"
-    },
-    "devDependencies": {
-        "@changesets/cli": "^2.29.2"
-    }
+  "name": "@tango-adb/monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "test": "pnpm recursive run test",
+    "lint": "pnpm recursive run lint",
+    "start": "pnpm recursive run start"  // This will run the start script in all sub-packages that have one
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.2"
+  }
 }
