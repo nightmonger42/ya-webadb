@@ -5,7 +5,7 @@
     "build": "pnpm recursive run build",
     "test": "pnpm recursive run test",
     "lint": "pnpm recursive run lint",
-    "start": "pnpm recursive run start"  // This will run the start script in all sub-packages that have one
+    "start": "pnpm recursive run start"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.2"
